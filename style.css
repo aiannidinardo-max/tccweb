@@ -1,0 +1,121 @@
+/* Global Styles 23! */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px; /* space for fixed header */
+}
+
+/* Header */
+.transparent-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #7a7a7a;
+    color: white;
+    z-index: 1000;
+    padding: 5px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.header-logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95em;
+    padding: 8px 12px;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+/* Section Layout */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #a0522d;
+    font-size: 1.8em;
+    border-bottom: 3px solid #228b22;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Section Backgrounds */
+#home {
+    background: url('images/truss.webp') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+#services {
+    background: url('images/staircase.webp') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+#about {
+    background: url('images/image1.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+#contact {
+    background: url('images/image2.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+#owner{
+    background: url('images/mario.JPG') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Footer */
+footer {
+    background: #7a7a7a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+
